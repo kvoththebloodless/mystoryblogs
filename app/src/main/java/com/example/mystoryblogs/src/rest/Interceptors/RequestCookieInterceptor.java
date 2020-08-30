@@ -1,4 +1,4 @@
-package com.example.mystoryblogs.mystoryblogs.rest.Interceptors;
+package com.example.mystoryblogs.src.rest.Interceptors;
 
 import android.content.Context;
 import android.preference.PreferenceManager;

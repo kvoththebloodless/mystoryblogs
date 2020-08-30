@@ -1,5 +1,5 @@
-package com.example.mystoryblogs.mystoryblogs.rest.service;
-import com.example.mystoryblogs.mystoryblogs.models.User;
+package com.example.mystoryblogs.src.rest.service;
+import com.example.mystoryblogs.src.models.User;
 
 import retrofit2.Call;
 import retrofit2.http.Field;

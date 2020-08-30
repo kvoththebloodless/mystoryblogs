@@ -1,9 +1,10 @@
-package com.example.mystoryblogs.mystoryblogs.rest;
+package com.example.mystoryblogs.src.rest;
 
 import android.content.Context;
 
-import com.example.mystoryblogs.rest.Interceptors.RequestCookieInterceptor;
-import com.example.mystoryblogs.rest.Interceptors.ResponseCookieInterceptor;
+import com.example.mystoryblogs.src.rest.Interceptors.RequestCookieInterceptor;
+import com.example.mystoryblogs.src.rest.Interceptors.ResponseCookieInterceptor;
+
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
@@ -14,7 +15,7 @@ public class RetrofitSingleton {
     private static final String BASE_URL = "https://mystoryblogs.herokuapp.com";
 
     public static Retrofit getRetrofitInstance(Context context) {
-        // from https://medium.com/@dileepsattawan/how-to-handle-cookies-with-retrofit-in-android-8b1812178949
+
         OkHttpClient client = new OkHttpClient();
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
         builder.addInterceptor(new RequestCookieInterceptor(context));

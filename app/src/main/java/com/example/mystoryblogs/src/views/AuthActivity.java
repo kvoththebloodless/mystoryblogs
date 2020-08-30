@@ -1,4 +1,4 @@
-package com.example.mystoryblogs.mystoryblogs;
+package com.example.mystoryblogs.src.views;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -36,7 +36,7 @@ public class AuthActivity extends AppCompatActivity {
         binding.signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(AuthActivity.this,RegisterActivity.class));
+                startActivity(new Intent(AuthActivity.this, RegisterActivity.class));
             }
         });
 

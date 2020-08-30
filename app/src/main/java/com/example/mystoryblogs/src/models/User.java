@@ -1,4 +1,4 @@
-package com.example.mystoryblogs.mystoryblogs.models;
+package com.example.mystoryblogs.src.models;
 
 public class User {
     private String 

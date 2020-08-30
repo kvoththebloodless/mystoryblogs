@@ -1,4 +1,4 @@
-package com.example.mystoryblogs.mystoryblogs;
+package com.example.mystoryblogs.src.views;
 
 import android.content.Intent;
 import android.os.Bundle;
